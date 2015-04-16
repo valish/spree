@@ -24,13 +24,10 @@
       <div id="progress">
         <div class="wrapper">
           <div id="spinner"></div>
-          <div class="progress-message"><%= Spree.t(:loading) %>...</div>
+          <div class="progress-message">Store admin loading...</div>
         </div>
       </div>
 
-      <%= render :partial => 'spree/admin/shared/alert', :collection => session[:alerts] %>
-
-      <%= render :partial => 'spree/admin/shared/header' %>
       <%= render :partial => 'spree/admin/shared/menu' %>
       <%= render :partial => 'spree/admin/shared/sub_menu' %>
       <%= render :partial => 'spree/admin/shared/content_header' %>
